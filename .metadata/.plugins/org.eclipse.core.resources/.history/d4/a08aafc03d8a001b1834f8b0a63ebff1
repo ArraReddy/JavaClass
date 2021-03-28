@@ -1,0 +1,17 @@
+package com.Nested;
+
+public class Inner {
+
+	
+		
+		
+		@Override
+		public String toString() {
+			// TODO Auto-generated method stub
+			return "in Outer Class";
+		
+		
+
+	}
+
+}

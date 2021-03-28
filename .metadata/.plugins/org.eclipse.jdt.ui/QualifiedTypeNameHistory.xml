@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.Nested.Outer"/>
+    <fullyQualifiedTypeName name="com.Nested.Outer.Inner"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.replacements.aarch64.AArch64StringUTF16Substitutions"/>
+    <fullyQualifiedTypeName name="com.inheritence.A"/>
+    <fullyQualifiedTypeName name="com.project.Abstract"/>
+    <fullyQualifiedTypeName name="com.project.project"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.interfac.Printable"/>
+    <fullyQualifiedTypeName name="com.interfac.NetflexUK"/>
+    <fullyQualifiedTypeName name="com.interfac.NetflexAcc"/>
+    <fullyQualifiedTypeName name="com.marker.Oper"/>
+    <fullyQualifiedTypeName name="com.marker.Faculti"/>
+    <fullyQualifiedTypeName name="com.marker.Student"/>
+    <fullyQualifiedTypeName name="com.interfac.NetflexAsia"/>
+    <fullyQualifiedTypeName name="com.interfac.Netflex"/>
+    <fullyQualifiedTypeName name="com.interfac.NetflexEurope"/>
+    <fullyQualifiedTypeName name="clone.Employee"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalAccessException"/>
+</qualifiedTypeNameHistroy>

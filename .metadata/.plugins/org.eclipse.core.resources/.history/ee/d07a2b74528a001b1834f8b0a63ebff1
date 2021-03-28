@@ -1,0 +1,12 @@
+package com.inheritence.tp;
+
+public class B extends A {
+	
+	public void dummy()
+	{
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,13 @@
+package com.Nested;
+
+public class NestedDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Outer obj1=new Outer();
+		Inner obj2=new Inner();
+
+	}
+
+}

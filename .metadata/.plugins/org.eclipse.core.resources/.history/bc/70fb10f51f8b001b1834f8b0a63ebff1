@@ -1,0 +1,11 @@
+package com.interfac;
+
+public interface NetflexAcc extends NetflexAsia,NetflexEurope,NetflexUK {
+	
+	void Asia();
+	void Europe();
+	void UK();
+	
+	
+
+}

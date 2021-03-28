@@ -1,0 +1,11 @@
+package com.marker;
+
+public class Oper implements Faculti,Student{
+
+	
+		void working()
+		{
+			System.out.println("its working from Oper");
+		}
+
+}
