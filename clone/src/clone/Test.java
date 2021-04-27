@@ -2,7 +2,7 @@ package clone;
 
 public class Test {
 
-	public static void main(String[] args) //throws CloneNotSupportedException 
+	public static void main(String[] args) throws CloneNotSupportedException //throws CloneNotSupportedException 
 	{
 		// TODO Auto-generated method stub
 		 
@@ -20,16 +20,18 @@ public class Test {
 		
 		
 		Employee emp2;
-		try {
-			emp2 = (Employee)emp1.clone();
-			emp2.printble();
-		} catch (CloneNotSupportedException e) {
-			// TODO Auto-generated catch block
-			System.out.println("Not an isntence cannot deep clone");
-			
-			
-		}
+//		try {
+//			emp2 = (Employee)emp1.clone();
+//			emp2.printble();
+//		} catch (CloneNotSupportedException e) {
+//			// TODO Auto-generated catch block
+//			System.out.println("Not an isntence cannot deep clone");
+//			
+//			
+//		}
 		//emp2.printble();
+		
+		emp2 = (Employee)emp1.clone();
 		
 		
 		Department dep2=new Department("HR", 1028);
