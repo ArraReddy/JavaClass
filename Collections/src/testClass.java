@@ -39,10 +39,17 @@ public class testClass {
 //			System.out.println(it.next());
 //			
 //		}
+////		
+//		Properties prt=new Properties(keycon);
 //		
-		Properties prt=new Properties(keycon);
+//		System.out.println(prt.get("url"));
 		
-		System.out.println(prt.get("url"));
+		
+		List<Integer> v=new Vector<Integer>();
+		v.add(123);
+		v.add(123);
+		
+		System.out.println(v);
 		
 		
 		

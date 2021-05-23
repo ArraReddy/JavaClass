@@ -49,6 +49,8 @@ public class Allinone {
 		{
 			System.out.println(e.toString());
 		}
+		System.out.println("*****************************************************************");
+ 
 		//SORTED ARRAY
 		Arrays.sort(e1);
 		System.out.println("Sorted");
@@ -56,7 +58,7 @@ public class Allinone {
 		{
 			System.out.println(e.toString());
 		}
-		
+		System.out.println("*****************************************************************");
 		
 		//ARRAYLIST
 		List<Employee> l1=new ArrayList<Employee>();
@@ -70,7 +72,8 @@ public class Allinone {
 		{
 			System.out.println(itr.next().toString());
 		}
-		
+		System.out.println("*****************************************************************");
+
 		
 		//VECTOR
 		Vector<Employee> l2=new Vector<Employee>();
@@ -83,12 +86,16 @@ public class Allinone {
 		{
 			System.out.println(val.nextElement().toString());
 		}
+		System.out.println("*****************************************************************");
+
 		
 		//VECTOR Iterator
 		System.out.println("From vector via iterator");
 		itr=l2.iterator();
 		while(itr.hasNext())
 			System.out.println(itr.next().toString());
+		System.out.println("*****************************************************************");
+
 		
 		//HASHSET
 		
@@ -98,6 +105,8 @@ public class Allinone {
 		itr=s1.iterator();
 		while(itr.hasNext())
 		System.out.println(itr.next().toString());
+		System.out.println("*****************************************************************");
+
 
 		//TREESET
 		TreeSet<Employee> s2=new TreeSet<Employee>();
@@ -106,6 +115,8 @@ public class Allinone {
 		itr=s2.iterator();
 		while(itr.hasNext())
 			System.out.println(itr.next().toString());
+		System.out.println("*****************************************************************");
+
 		
 		//TREESET SORTED COMPARATOR CLASS EXAMPLE
 		
@@ -125,6 +136,8 @@ public class Allinone {
 		itr=s3.iterator();
 		while(itr.hasNext())
 			System.out.println(itr.next().toString());
+		System.out.println("*****************************************************************");
+
 		
 		
 		//HASHMAP
@@ -143,6 +156,8 @@ public class Allinone {
 		
 		System.out.println("What if i print keys in HashMap"+hm.keySet());
 		System.out.println("What if i print values in HashMap"+hm.values());
+		System.out.println("*****************************************************************");
+
 		
 		//Treemap SEE ITS SORTED BASED ON KEYS SET
 		
@@ -166,6 +181,8 @@ public class Allinone {
 		System.out.println("Properies Output");
 		for(int i=0;i<10;i++)
 			System.out.println(pp.getProperty((Integer.toString(e1[i].id))));
+		System.out.println("*****************************************************************");
+
 		
 	
 		
