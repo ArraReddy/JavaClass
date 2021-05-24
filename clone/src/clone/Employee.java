@@ -34,6 +34,14 @@ public class Employee implements Cloneable
 		this.dep=dep;
 	}
 	
+	public Employee(Employee empTemp) {
+		// TODO Auto-generated constructor stub
+		this.Name=empTemp.Name;
+		this.Id=empTemp.Id;
+		//this.dep=empTemp.dep;
+		this.dep=new Department(empTemp.getDep());
+		//this.dep=new Department(empTemp.getDep().getDname(), empTemp.getDep().getDId());
+	}
 	public void printble()
 	{
 		System.out.printf("Employee name:"+Name+" Id: "+Id+""
@@ -42,19 +50,16 @@ public class Employee implements Cloneable
 		
 	}
 	
-//	@Override
-//	protected Employee clone() throws CloneNotSupportedException {
-//		// TODO Auto-generated method stub
-//		Employee tempEmp=(Employee)super.clone();
-//		return tempEmp.setDep((Department) tempEmp.getDep().clone());
-	//return tempEmp.setDep(tempEmp.getDep().clone());
-//	
+
+		@Override
+		protected Employee clone() throws CloneNotSupportedException {
+			// TODO Auto-generated method stub
+			Employee tempE=(Employee)super.clone();
+			tempE.setDep(tempE.getDep().clone());
+			
+			return tempE;
+		}
 	
-	@Override
-	protected Object clone() throws CloneNotSupportedException {
-		// TODO Auto-generated method stub
-		return super.clone();
-	}
 	
 	
 	

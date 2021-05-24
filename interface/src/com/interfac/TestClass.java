@@ -60,7 +60,11 @@ public class TestClass {
 //		NetflexAsia obj77=new Netflex();
 //		System.out.println(obj55 instanceof Netflex);
 //		System.out.println( instanceof NetflexEurope);
-//		
+		
+		
+		
+		System.out.println(obj instanceof NetflexAsia);
+
 		
 
 	}

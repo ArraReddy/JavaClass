@@ -22,4 +22,12 @@ public class Oper implements Faculti,Student{
 			
 		}
 
+		@Override
+		public void type() {
+			// TODO Auto-generated method stub
+			
+			
+			
+		}
+
 }

@@ -35,7 +35,7 @@ public class forString {
 		System.out.println(s1.replace("e", "d"));
 		
 		
-		
+		System.out.println("****************************************************************************************************************");
 		
 		
 		//string buffer
@@ -49,7 +49,9 @@ public class forString {
 		System.out.println(sf1.charAt(5));
 		System.out.println(sf1.delete(0, 5));
 		System.out.println(sf1);
+		System.out.println("****************************************************************************************************************");
 		
+
 		
 		
 		//String bUilder

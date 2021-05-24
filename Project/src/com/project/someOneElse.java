@@ -8,7 +8,7 @@ public class someOneElse extends majorProject {
 	}
 	
 	@Override
-	public majorProject dummy()
+	public Object dummy()
 	{
 		return 1;
 		

@@ -1,6 +1,6 @@
 package clone;
 
-public class Department //implements Cloneable
+public class Department implements Cloneable
 {
 
 	private String Dname;
@@ -23,6 +23,12 @@ public class Department //implements Cloneable
 		DId = dId;
 	}
 	
+	public Department(Department dep) {
+		// TODO Auto-generated constructor stub
+		
+		this.DId=dep.getDId();
+		this.Dname=dep.getDname();
+	}
 	public void printble()
 	{
 		System.out.printf("Department name:"+Dname+" Id: "+DId+"\n");
@@ -30,9 +36,9 @@ public class Department //implements Cloneable
 	}
 	
 	@Override
-	protected Object clone() throws CloneNotSupportedException {
+	protected Department clone() throws CloneNotSupportedException {
 		// TODO Auto-generated method stub
-		return super.clone();
+		return (Department)super.clone();
 	}
 	
 	
